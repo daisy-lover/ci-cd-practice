@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
   # 这是一个重要的设置：定义 GITHUB_TOKEN 的权限
   # 我们需要写入 Packages 的权限来推送镜像
-  permissions:
+permissions:
     contents: read
     packages: write
 
